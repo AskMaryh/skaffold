@@ -40,6 +40,7 @@ var transformableAllowlist = map[apimachinery.GroupKind]bool{
 	{Group: "agones.dev", Kind: "Fleet"}:            true,
 	{Group: "agones.dev", Kind: "GameServer"}:       true,
 	{Group: "argoproj.io", Kind: "Rollout"}:         true,
+	{Group: "openfaas.com", Kind: "Function"}:       true,
 }
 
 // FieldVisitor represents the aggregation/transformation that should be performed on each traversed field.
